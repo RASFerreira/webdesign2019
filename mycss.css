@@ -1,0 +1,1904 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+
+/* comum a todas as páginas */
+
+    /* Barra de Navegação */
+
+.nav-bar{
+    position: absolute;
+    position: fixed;
+    top: 22.5%;
+    left: 2%;
+}
+
+.nav-bar--list{
+    list-style-type: none;
+}
+
+
+#nav-bar__item--home{
+    width: 12.5vh;
+    background-color: #ffffff;
+    margin: 8% 0;
+    height: 4.5vh;
+    text-align: center;
+}
+
+#nav-bar__item--home:hover{
+    background-color: #CF2127;
+}
+
+.nav-bar--link--home{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-bar--link--home:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#nav-bar__item--historia{
+    width: 17.5vh;
+    background-color: #ffffff;
+    margin: 8% 0;
+    height: 4.5vh;
+    text-align: center;
+
+}
+
+#nav-bar__item--historia:hover{
+    background-color: #CF2127;
+}
+
+.nav-bar--link--historia{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-bar--link--historia:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#nav-bar__item--produtos{
+    width: 19.5vh;
+    background-color: #ffffff;
+    margin: 8% 0;
+    height: 4.5vh;
+    text-align: center;
+}
+
+#nav-bar__item--produtos:hover{
+    background-color: #CF2127;
+}
+
+.nav-bar--link--produtos{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-bar--link--produtos:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#nav-bar__item--contacto{
+    width: 21vh;
+    background-color: #ffffff;
+    margin: 8% 0;
+    height: 4.5vh;
+    text-align: center;
+}
+
+#nav-bar__item--contacto:hover{
+    background-color: #CF2127;
+}
+
+.nav-bar--link--contacto{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-bar--link--contacto:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#nav-bar__item--follow{
+    width: 20.5vh;
+    background-color: #ffffff;
+    margin: 8% 0;
+    height: 4.5vh;
+    text-align: center;
+}
+
+#nav-bar__item--follow:hover{
+    background-color: #CF2127;
+}
+
+.nav-bar--link--follow{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-bar--link--follow:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+    /* nav-bar pagina home */
+
+    #nav-bar__item--homepage{
+       width: 12.5vh;
+       background-color: #000000;
+       margin: 8% 0;
+       height: 4.5vh;
+       text-align: center;
+    }
+
+    #nav-bar__item--homepage:hover{
+        background-color: #CF2127;
+    }
+
+    .nav-bar--link--homepage{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .nav-bar--link--homepage:hover{
+        text-decoration: none;
+        color: #ffffff;
+        margin: 0;
+       border: 0;
+       padding: 0;
+
+    }
+
+    /* nav-bar pagina historia */
+
+    #nav-bar__item--historiapage{
+        width: 17.5vh;
+        background-color: #000000;
+        margin: 8% 0;
+        height: 4.5vh;
+        text-align: center;
+     }
+ 
+     #nav-bar__item--historiapage:hover{
+         background-color: #CF2127;
+     }
+ 
+     .nav-bar--link--historiapage{
+         text-decoration: none;
+         color: #ffffff;
+         font-size: 18px;
+         letter-spacing: 2px;
+         margin: 0;
+         border: 0;
+         padding: 0;
+     }
+ 
+     .nav-bar--link--historiapage:hover{
+         text-decoration: none;
+         color: #ffffff;
+         margin: 0;
+        border: 0;
+        padding: 0;
+ 
+     }
+
+     /* nav-bar pagina produtos */
+
+     #nav-bar__item--produtospage{
+        width: 19.5vh;
+        background-color: #000000;
+        margin: 8% 0;
+        height: 4.5vh;
+        text-align: center;
+     }
+ 
+     #nav-bar__item--produtospage:hover{
+         background-color: #CF2127;
+     }
+ 
+     .nav-bar--link--produtospage{
+         text-decoration: none;
+         color: #ffffff;
+         font-size: 18px;
+         letter-spacing: 2px;
+         margin: 0;
+         border: 0;
+         padding: 0;
+     }
+ 
+     .nav-bar--link--produtospage:hover{
+         text-decoration: none;
+         color: #ffffff;
+         margin: 0;
+        border: 0;
+        padding: 0;
+ 
+     }
+
+     /* nav-bar pagina contacto */
+
+     #nav-bar__item--contactopage{
+        width: 21vh;
+        background-color: #000000;
+        margin: 8% 0;
+        height: 4.5vh;
+        text-align: center;
+     }
+ 
+     #nav-bar__item--contactopage:hover{
+         background-color: #CF2127;
+     }
+ 
+     .nav-bar--link--contactopage{
+         text-decoration: none;
+         color: #ffffff;
+         font-size: 18px;
+         letter-spacing: 2px;
+         margin: 0;
+         border: 0;
+         padding: 0;
+     }
+ 
+     .nav-bar--link--contactopage:hover{
+         text-decoration: none;
+         color: #ffffff;
+         margin: 0;
+        border: 0;
+        padding: 0;
+ 
+     }
+ 
+    /* nav-bar pagina follow */
+
+    #nav-bar__item--followpage{
+        width: 20.5vh;
+        background-color: #000000;
+        margin: 8% 0;
+        height: 4.5vh;
+        text-align: center;
+     }
+ 
+     #nav-bar__item--followpage:hover{
+         background-color: #CF2127;
+     }
+ 
+     .nav-bar--link--followpage{
+         text-decoration: none;
+         color: #ffffff;
+         font-size: 18px;
+         letter-spacing: 2px;
+         margin: 0;
+         border: 0;
+         padding: 0;
+     }
+ 
+     .nav-bar--link--followpage:hover{
+         text-decoration: none;
+         color: #ffffff;
+         margin: 0;
+        border: 0;
+        padding: 0;
+ 
+     }
+ 
+ 
+ 
+
+    /* HEADER */
+
+.header{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    background-size: cover;
+    height: 30vh;
+    
+}
+
+.header__img{
+    position: absolute;
+    background-image: url(./img/homebrandheader.png);
+    width: 301px;
+    height: 95px;
+    left: 40%;
+    bottom: 20%;
+}
+
+.header__text{
+    position: absolute;
+    color: #CF2127;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    left: 46%;
+    bottom: 7%;
+}
+
+    /* FOOTER */ 
+
+.prefooter{
+    position: relative;
+    background-image: url(./img/background.caveiras.png);
+    background-size: cover;
+    background-color: #1A1A1A;
+    height: 40vh;
+}
+
+.prefooter__col--left{
+    position: relative;
+}
+
+.prefooter__left--textmain{
+    color: #CF2127;
+    position: absolute;
+    letter-spacing: 2px;
+    left: 35%;
+    top: 24%;
+}
+
+.prefooter__left--textsub{
+    color: #FFFFFF;
+    position: absolute;
+    line-height: 1.2;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    left: 34%;
+    top: 40%;
+    text-align: center;
+}
+
+.prefooter__col--center{
+    position: relative;
+}
+
+.prefooter__center--textmain{
+    color: #CF2127;
+    position: absolute;
+    letter-spacing: 2px;
+    left: 16%;
+    top: 24%;
+}
+
+.prefooter__center--textsub{
+    color: #FFFFFF;
+    position: absolute;
+    line-height: 1.2;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    left: 22%;
+    top: 40%;
+    text-align: center;
+}
+
+.prefooter__col--right{
+    position: relative;
+}
+
+.prefooter__right--textmain{
+    color: #CF2127;
+    position: absolute;
+    letter-spacing: 2px;
+    right: 41%;
+    top: 24%;
+}
+
+.socialmedia__left{
+    position: absolute;
+    background-image: url(./img/twitter.png);
+    background-size: cover;
+    width: 28px;
+    height: 22px;
+    left: 27%;
+    top: 40%;
+   
+}
+
+.socialmedia__center{
+    position: absolute;
+    background-image: url(./img/facebook.png);
+    background-size: cover;
+    width: 12px;
+    height: 24px;
+    left: 38.5%;
+    top: 40%;
+   
+}
+
+.socialmedia__right{
+    position: absolute;
+    background-image: url(./img/instagram.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    right: 48%;
+    top: 40%;
+   
+}
+
+
+.footer{
+    position: relative;
+    background-color: #000000;
+    height: 5vh;
+}
+
+.footer__text{
+    position: absolute;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: 10px;
+    top: 20%;
+    left: 35%;
+
+}
+
+/* pagina de acesso ao site*/
+
+.entrance{
+    background-image: url(./img/backgrounf1.png);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.entrance__logo{
+    background-image: url(./img/homebrandname.png);
+    background-size: cover;
+    position: absolute;
+    height: 219px;
+    width: 700px;
+    left: 25%;
+    top: 15%;
+    
+}
+
+.logo__text{
+    position: absolute;
+    color: #CF2127;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    top: 48%;
+    left: 45%;
+}
+
+.entrance__text{
+    position: absolute;
+    color: #CF2127;
+    letter-spacing: 1.5px;
+    
+    top: 58%;
+    left: 22%;
+}
+
+.entrance__btn{
+    position: absolute;
+    top: 66%;
+    left: 43%;
+    width: 170px;
+    height: 60px;
+    background-color: #CF2127;
+    border: #CF2127;
+    color: white;
+    font-size: large;
+}
+
+.entrance__btn:hover{
+    background-color:#000000;
+}
+
+
+/* Página home */
+
+.home__img--presentation{
+    height: 80vh;
+    background-image: url(./img/coyoacan_images_6.jpg) ;
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+
+.home__main{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    width: 100%;
+    height: 355vh;
+}
+
+.home__products{
+    position: absolute;
+    background-color: #000000;
+    height: 67vh;
+    width: 72.5vh;
+    top: 103%;
+    right: 15%;
+}
+
+.products__text--main{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 35px;
+    top: 20%;
+    left: 8%;    
+}
+
+.products__text--sub{
+    position: absolute;
+    color: #ffffff;
+    top: 52%;
+    left: 8%;
+    font-size: 11px; 
+    letter-spacing: 1px; 
+    line-height: 1.2;
+}
+
+.home__products--btn{
+    position: absolute;
+    background-color: #CF2127;
+    border: #CF2127;
+    color: white;
+    letter-spacing: 1px;
+    width: 170px;
+    height: 50px;
+    top: 68%;
+    left: 8%;
+    font-size: 20px;
+}
+
+.home__products--btn:hover{
+    background-color:#E8474D;
+}
+
+.home__presentation{
+        position: relative;
+        height: 150vh;
+        
+}
+
+
+
+.home__text{
+    position: absolute;
+    position: relative;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    line-height: 1.2;
+    height: 40vh;
+    width: 60vh;
+    top: 7%;
+    left: 17%;
+}
+
+
+.home__img--bar{
+    position: absolute;
+    background-image: url(./img/coyoacan_images_16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 100vh;
+    top: 44%;
+    right: 15.5%;
+}
+
+.home__promotion{
+    position: absolute;
+    background-color: #000000;
+    height: 65vh;
+    width: 72vh;
+    top: 38.5%;
+    left: 15%;
+}
+
+.promotion__img--right{
+    position: absolute;
+    background-image: url(./img/calavera.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    top: 20%;
+    right: 35%;
+}
+
+.promotion__img--left{
+    position: absolute;
+    background-image: url(./img/calaverabranca.png);
+    background-size: cover;
+    height: 15vh;
+    width: 15vh;
+    top: 7%;
+    left: 32%;
+}
+
+.promotion__text--main{
+    position: absolute;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-size: 40px;
+    top: 45%;
+    left: 10%;
+}
+
+.promotion__text--sub{
+    position: absolute;
+    color: #CF2127;
+    top: 65%;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    left: 11%;
+}
+
+.home__events{
+    position: relative;
+    background-image: url(./img/background.caveiras.png);
+    background-size: cover;
+    background-color: #1A1A1A;
+    height: 62vh;
+}
+
+.home__events--left{
+    position: relative;
+    
+}
+
+.home__events--center{
+    position: relative;
+   
+}
+
+.events__text--main{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-size: 45px;
+    top: 5%;
+    left: 27%;
+}
+
+.events__left--main{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 2px;
+    top: 35%;
+    left: 10%;
+}
+
+.events__redsquare--left{
+    position: absolute;
+    background-color: #CF2127;
+    height: 50px;
+    width: 120px;
+    top: 46%;
+    left: 10.5%;
+
+}
+
+.redsquare__text--left{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-size: 16px;
+    left: 6%;
+    top: 10%;
+}
+
+.events__img--skull--left{
+    position: absolute;
+    background-image: url(./img/caveira1.png);
+    background-size: cover;
+    background-position: center;
+    height: 59.5px;
+    width: 223.5px;
+    top: 50%;
+    left: 5.5%;
+}
+
+.events__left--sub{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-size: 10px;
+    top: 68%;
+    left: 9%;
+
+}
+
+.events__center--main{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    top: 35%;
+    left: 39%;
+}
+
+.events__redsquare--center{
+    position: absolute;
+    background-color: #CF2127;
+    height: 50px;
+    width: 125px;
+    top: 46%;
+    left: 43%;
+}
+
+.redsquare__text--center{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-size: 13px;
+    top: 20%;
+    left: 1.5%;
+}
+
+.events__img--skull--center{
+    position: absolute;
+    background-image: url(./img/caveira1.png);
+    background-size: cover;
+    background-position: center;
+    height: 59.5px;
+    width: 223.5px;
+    top: 50%;
+    left: 38%;
+}
+
+.events__center--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    top: 68%;
+    left: 41%;
+}
+
+.events__right--main{
+    position: absolute;
+    color: #ffffff;
+    top: 35%;
+    right: 8%;
+}
+
+.redsquare__text--right{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    top: 12%;
+    left: 16%;
+}
+
+.events__redsquare--right{
+    position: absolute;
+    background-color: #CF2127;
+    height: 50px;
+    width: 120px;
+    top: 46%;
+    right: 10.5%;
+}
+
+.events__img--skull--right{
+    position: absolute;
+    background-image: url(./img/caveira1.png);
+    background-size: cover;
+    background-position: center;
+    height: 59.5px;
+    width: 223.5px;
+    top: 50%;
+    right: 5.5%;
+}
+
+.events__right--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    top: 68%;
+    right: 4%;
+}
+
+
+.home__events--right{
+    position: relative;
+    
+}
+
+
+.home__hashtag{
+    position: relative;
+    
+    height: 62vh;
+}
+
+.home__hashtag--left{
+    position: relative;
+    
+
+}
+
+.home__hashtag--center{
+    position: relative;
+    
+}
+
+.hashtag__text--main{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.hashtag__span{
+    color: #CF2127;
+}
+
+.hashtag__img--left{
+    position: absolute;
+    background-image: url(./img/coyoacan_images_8.jpg);
+    background-size: cover;
+    height: 27vh;
+    width: 45.5vh;
+    top: 25%;
+    left: 0%;
+    
+
+}
+
+.hashtag__img--center{
+    position: absolute;
+    background-image: url(./img/coyoacan_images_15.jpg);
+    background-size: cover;
+    height: 27vh;
+    width: 45.5vh;
+    top: 25%;
+    left: 33.75%;
+}
+
+.hashtag__img--right{
+    position: absolute;
+    background-image: url(./img/coyoacan_images_13.jpg);
+    background-size: cover;
+    height: 27vh;
+    width: 45.5vh;
+    top: 25%;
+    right: 0%;
+}
+
+.hashtag__text--sub{
+    position: absolute;
+    top: 80%;
+    left: 29%;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.home__hashtag--right{
+    position: relative;
+    
+}
+
+/* página da história */
+
+.historia__img--presentation{
+    height: 80vh;
+    background-image: url(./img/historia.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.historia__nossahistoria{
+    position: absolute;
+    background-color: #000000;
+    height: 66vh;
+    width: 72.5vh;
+    top: 35%;
+    right: 15%;
+    
+}
+
+.nossahistoria__text--main{
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 2px;
+    top: 15%;
+    left: 8%; 
+}
+
+.nossahistoria__text--sub--top{
+    position: absolute;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    top: 35%;
+    left: 4%;
+    font-size: 15px;
+
+}
+
+.nossahistoria__text--sub--bottom{
+    position: absolute;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    top: 60%;
+    left: 4%;
+    font-size: 15px;
+
+}
+
+.historia__main{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    width: 100%;
+    height: 212vh;
+}
+
+
+
+.historia__information{
+    position: relative;
+    height: 120vh;
+    
+
+}
+
+.historia__information--left{
+    position: relative;
+    
+
+}
+
+.historia__information--center{
+    position: relative;
+    
+
+}
+
+.information__img--left{
+    position: absolute;
+    background-image: url(./img/balcc3a3o.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 69vh;
+    top: 4%;
+    left: 0%;
+}
+
+.information__img--right{
+    position: absolute;
+    background-image: url(./img/historiaimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 66vh;
+    width: 85vh;
+    top: 50%;
+    right: 9.75%;
+}
+
+.information__text--left{
+    position: absolute;
+    background-color: #CF2127;
+    clip-path: polygon(100% 0, 100% 9.75%, 81.25% 9.75%, 81.25% 65%, 81.25% 100%, 0 100%, 0% 80%, 0 0);
+    height: 63vh;
+    width: 67.5vh;
+    top: 45%;
+    left: 1%;
+}
+
+.information__text--main{
+    position: absolute;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    color:#ffffff;
+    font-size: 13.5px;
+    top: 20%;
+    left: 7%;
+}
+
+.historia__information--right{
+    position: relative;
+   
+
+}
+
+
+/* página dos produtos */
+
+.produto__img--presentation{
+    position: relative;
+    height: 80vh;
+    background-image: url(./img/pyramid2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.produto__presentation--text-one{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: #000000;
+    top: 12%;
+    left: 25%;
+}
+
+.produto__text-one{
+   font-size: 60px; 
+}
+
+.produto__presentation--text-two{
+    position: absolute;
+    initial-letter: 2px;
+    
+    color: #FFFFFF;
+    text-shadow: #000000;
+    top: 30%;
+    right: 28%;
+}
+
+.produto__text-two{
+   font-size: 60px; 
+}
+
+.produto__main{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    width: 100%;
+    height: 440vh;
+}
+
+.produto__productone{
+    position: relative;
+    height: 80vh;
+    
+}
+
+.productone__square{
+    position: absolute;
+    background-color: #4D6E8D;
+    height: 80vh;
+    width: 60vh;
+    top: 3%;
+    left: 20%;
+}
+
+.productone__square--logo{
+    position: absolute;
+    background-image: url(./img/quetza.png);
+    
+    background-size: 100%;
+    height: 93.5px;
+    width: 84px;
+    top: 5%;
+    left: 36%;
+}
+
+.productone__square--text--main{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    top: 25%;
+    left: 32.5%;
+}
+
+.productone__square--text--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    top: 35%;
+    left: 15%;
+}
+
+.productone__bottle{
+    position: absolute;
+    background-image: url(./img/1.png);
+    background-size: cover;
+    height: 68vh;
+    width: 45vh;
+    top: 16%;
+    left: 37%;
+}
+
+.productone__temperatura--logo{
+    position: absolute;
+    background-image: url(./img/celsius.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 10%;
+    right: 39%;
+}
+
+.productone__temperatura--text--main{
+    position: absolute;
+    color: #000000;
+    top: 9%;
+    right: 31%;
+}
+
+.productone__temperatura--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 15%;
+    right: 19.5%;
+
+}
+
+.productone__aparencia--logo{
+    position: absolute;
+    background-image: url(./img/olho.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 42%;
+    right: 33%;
+}
+
+.productone__aparencia--text--main{
+    position: absolute;
+    color: #000000;
+    top: 43%;
+    right: 26.5%;
+}
+
+.productone__aparencia--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 48%;
+    right: 10%;
+    font-size: 15px;
+
+}
+
+.productone__sabor--logo{
+    position: absolute;
+    background-image: url(./img/labio.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 77%;
+    right: 38%;
+}
+
+.productone__sabor--text--main{
+    position: absolute;
+    color: #000000;
+    top: 79%;
+    right: 33.5%;
+}
+
+.productone__sabor--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 84%;
+    right: 19.5%;
+    font-size: 16px;
+
+}
+
+.separationone{
+    position: relative;
+    height: 9vh;
+}
+
+.produto__producttwo{
+    position: relative;
+    height: 80vh;
+    
+}
+
+.producttwo__square{
+    position: absolute;
+    background-color: #B9383C;
+    height: 80vh;
+    width: 60vh;
+    top: 3%;
+    left: 20%;
+}
+
+.producttwo__square--logo{
+    position: absolute;
+    background-image: url(./img/quetza.png); 
+    background-size: 100%;
+    height: 93.5px;
+    width: 84px;
+    top: 5%;
+    left: 36%;
+}
+
+.producttwo__square--text--main{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    top: 25%;
+    left: 32.5%;
+}
+
+.producttwo__square--text--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    top: 35%;
+    left: 15%;
+}
+
+.producttwo__bottle{
+    position: absolute;
+    background-image: url(./img/3.png);
+    background-size: cover;
+    height: 68vh;
+    width: 45vh;
+    top: 16%;
+    left: 37%;
+}
+
+.producttwo__temperatura--logo{
+    position: absolute;
+    background-image: url(./img/celsius.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 10%;
+    right: 39%;
+}
+
+.producttwo__temperatura--text--main{
+    position: absolute;
+    color: #000000;
+    top: 9%;
+    right: 31%;
+}
+
+.producttwo__temperatura--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 15%;
+    right: 19.5%;
+
+}
+
+.producttwo__aparencia--logo{
+    position: absolute;
+    background-image: url(./img/olho.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 42%;
+    right: 33%;
+}
+
+.producttwo__aparencia--text--main{
+    position: absolute;
+    color: #000000;
+    top: 43%;
+    right: 26.5%;
+}
+
+.producttwo__aparencia--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 48%;
+    right: 10%;
+    font-size: 15px;
+
+}
+
+.producttwo__sabor--logo{
+    position: absolute;
+    background-image: url(./img/labio.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 77%;
+    right: 38%;
+}
+
+.producttwo__sabor--text--main{
+    position: absolute;
+    color: #000000;
+    top: 79%;
+    right: 33.5%;
+}
+
+.producttwo__sabor--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 84%;
+    right: 19.5%;
+    font-size: 16px;
+
+}
+
+.separationtwo{
+    position: relative;
+    height: 9vh;
+}
+
+.produto__productthree{
+    position: relative;
+    height: 80vh;
+    
+}
+
+.productthree__square{
+    position: absolute;
+    background-color: #576A4D;
+    height: 80vh;
+    width: 60vh;
+    top: 3%;
+    left: 20%;
+}
+
+.productthree__square--logo{
+    position: absolute;
+    background-image: url(./img/quetza.png); 
+    background-size: 100%;
+    height: 93.5px;
+    width: 84px;
+    top: 5%;
+    left: 35%;
+}
+
+.productthree__square--text--main{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    top: 28%;
+    left: 32.5%;
+}
+
+.productthree__square--text--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    top: 37%;
+    left: 15%;
+}
+
+.productthree__bottle{
+    position: absolute;
+    background-image: url(./img/444.png);
+    background-size: cover;
+    height: 68vh;
+    width: 45vh;
+    top: 16%;
+    left: 37%;
+}
+
+.productthree__temperatura--logo{
+    position: absolute;
+    background-image: url(./img/celsius.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 10%;
+    right: 39%;
+}
+
+.productthree__temperatura--text--main{
+    position: absolute;
+    color: #000000;
+    top: 9%;
+    right: 31%;
+}
+
+.productthree__temperatura--text--sub{
+    position: absolute;
+    color: #000000;
+    top: 15%;
+    right: 19.5%;
+
+}
+
+.productthree__aparencia--logo{
+    position: absolute;
+    background-image: url(./img/olho.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 42%;
+    right: 33%;
+}
+
+.productthree__aparencia--text--main{
+    position: absolute;
+    color: #000000;
+    top: 43%;
+    right: 26.5%;
+}
+
+.productthree__aparencia--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 48%;
+    right: 9%;
+    font-size: 15px;
+
+}
+
+.productthree__sabor--logo{
+    position: absolute;
+    background-image: url(./img/labio.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 77%;
+    right: 38%;
+}
+
+.productthree__sabor--text--main{
+    position: absolute;
+    color: #000000;
+    top: 79%;
+    right: 33.5%;
+}
+
+.productthree__sabor--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 84%;
+    right: 19.5%;
+    font-size: 16px;
+
+}
+
+.separationthree{
+    position: relative;
+    height: 9vh;
+}
+
+.produto__productfour{
+    position: relative;
+    height: 80vh;
+    
+}
+
+.productfour__square{
+    position: absolute;
+    background-color: #BF597B;
+    height: 80vh;
+    width: 60vh;
+    top: 3%;
+    left: 20%;
+}
+
+.productfour__square--logo{
+    position: absolute;
+    background-image: url(./img/losmuertos.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 100px;
+    top: 10%;
+    left: 35%;
+}
+
+.productfour__square--text--main{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    top: 32%;
+    left: 35%;
+}
+
+.productfour__square--text--sub{
+    position: absolute;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    top: 48%;
+    left: 15%;
+}
+
+.productfour__bottle{
+    position: absolute;
+    background-image: url(./img/2222.png);
+    background-size: cover;
+    height: 68vh;
+    width: 45vh;
+    top: 16%;
+    left: 37%;
+}
+
+.productfour__temperatura--logo{
+    position: absolute;
+    background-image: url(./img/celsius.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 10%;
+    right: 39%;
+}
+
+.productfour__temperatura--text--main{
+    position: absolute;
+    color: #000000;
+    top: 9%;
+    right: 31%;
+}
+
+.productfour__temperatura--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 15%;
+    right: 19.5%;
+
+}
+
+.productfour__aparencia--logo{
+    position: absolute;
+    background-image: url(./img/olho.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 42%;
+    right: 33%;
+}
+
+.productfour__aparencia--text--main{
+    position: absolute;
+    color: #000000;
+    top: 43%;
+    right: 26.5%;
+}
+
+.productfour__aparencia--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 48%;
+    right: 9%;
+    font-size: 15px;
+
+}
+
+.productfour__sabor--logo{
+    position: absolute;
+    background-image: url(./img/labio.png);
+    background-size: cover;
+    width: 78px;
+    height: 78px;
+    top: 77%;
+    right: 38%;
+}
+
+.productfour__sabor--text--main{
+    position: absolute;
+    color: #000000;
+    top: 79%;
+    right: 33.5%;
+}
+
+.productfour__sabor--text--sub{
+    position: absolute;
+    color: #000000;
+    line-height: 1.2;
+    top: 84%;
+    right: 19.5%;
+    font-size: 16px;
+
+}
+
+/* página dos contactos */
+
+.contacto__img--presentation{
+    height: 80vh;
+    background-image: url(./img/entrada.jpg) ;
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+
+.contacto__main{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.contacto__text{
+    position: relative;
+    position: absolute;
+    height: 40vh;
+    width: 50vh;
+    top: 63%;
+    left: 15%;
+}
+
+.contacto__text--main{
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+.contacto__text--email{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 350;
+    top: 18%;
+}
+
+.contacto__text--phone{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 350;
+    top: 33%;
+}
+
+.download__app{
+    position: absolute;
+    letter-spacing: 1.5px;
+    top: 50%;
+}
+
+.qrcode{
+    background-image: url(./img/qrcode.png);
+    background-size: cover;
+    position: absolute;
+    height: 97px;
+    width: 96.7px;
+    top: 65%;
+    left: 2%;
+}
+
+.black__square{
+    position: absolute;
+    background-color: #000000;
+    height: 68vh;
+    width: 75vh;
+    top: 46%;
+    right: 6%;
+}
+
+.contacto__map{
+    position: absolute;
+    background-image: url(./img/mapa.PNG);
+    height: 59.5vh;
+    width: 75vh;
+    top: 50%;
+    right: 13%;
+}
+
+
+/* página follow us */
+
+.follow__main{
+    position: relative;
+    background-image: url(./img/backgrounf1.png);
+    background-size: cover;
+    width: 100%;
+    height: 131vh;
+}
+
+.follow__img--top{
+    height: 40vh;
+    
+   
+}
+
+.follow__img--top--left{
+    background-image: url(./img/coyoacan_images_7.jpg);
+    background-size: cover;
+}
+
+.follow__img--top--center1{
+    background-image: url(./img/coyoacan_images_18.jpg);
+    background-size: cover;
+}
+
+.follow__img--top--center2{
+    background-image: url(./img/coyoacan_images_10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.follow__img--top--right{
+    background-image: url(./img/coyoacan_images_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.follow__img--bottom{
+    height: 40vh;
+    
+   
+}
+
+.follow__img--bottom--left{
+    background-image: url(./img/coyoacan_images_8.jpg);
+    background-size: cover;
+}
+
+.follow__img--bottom--center1{
+    background-image: url(./img/coyoacan_images_9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.follow__img--bottom--center2{
+    background-image: url(./img/coyoacan_images_15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.follow__img--bottom--right{
+    background-image: url(./img/coyoacan_images_17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.follow__text{
+        position: relative;
+        height: 50vh;
+        
+}
+
+.follow__text--left{
+
+}
+
+.follow__text--center{
+    position: relative;
+
+}
+
+.follow__text--main{
+    position: absolute;
+    letter-spacing: 3px;
+    font-size: 30px;
+    left: 8.5%;
+    top: 10%;
+}
+
+.follow__text--sub{
+    position: absolute;
+    letter-spacing: 3px;
+    font-size: 27px;
+    left: 5%;
+    top: 30%;
+}
+
+.instagram__logo--follow{
+    position: absolute;
+    background-image: url(./img/instagramblack.png);
+    background-size: cover;
+    height: 59.3px;
+    width: 59.3px;
+    top: 45%;
+    left: 22.5%;
+}
+
+.instagram{
+    position: absolute;
+    letter-spacing: 2px;
+    left: 19%;
+    top: 70%;
+}
+
+.facebook__logo--follow{
+    position: absolute;
+    background-image: url(./img/facebookblack.png);
+    background-size: cover;
+    height: 58.7px;
+    width: 31px;
+    top: 45%;
+    left: 48.5%;
+}
+
+.facebook{
+    position: absolute;
+    letter-spacing: 2px;
+    left: 44%;
+    top: 70%;
+}
+
+.twitter__logo--follow{
+    position: absolute;
+    background-image: url(./img/twitterblack.png);
+    background-size: cover;
+    height: 58.7px;
+    width: 72.3px;
+    top: 45%;
+    right: 19.5%;
+}
+
+.twitter{
+    position: absolute;
+    letter-spacing: 2px;
+    right: 19%;
+    top: 70%;
+}
+
+.follow__text--right{
+    
+}
